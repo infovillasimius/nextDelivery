@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InizioActivity"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/iconaInizio"
+            android:src="@drawable/partenza"
+            android:layout_marginTop="10dp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/inizioTitle"
+            android:id="@+id/inizioTitle"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/benvenuto"
+        android:id="@+id/benvenutoLabel"
+        android:textSize="25dp"
+        android:textColor="@color/Ok" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numFurg"
+        android:id="@+id/numF"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marcaFurg"
+        android:id="@+id/marcaF"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modelloFurg"
+        android:id="@+id/modelloF"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/helpInizio"
+            android:id="@+id/helpInizioConsegne"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignWithParentIfMissing="false"
+            android:textAlignment="center"
+            android:layout_above="@+id/confermaVettura"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tastoAvanti"
+            android:id="@+id/confermaVettura"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

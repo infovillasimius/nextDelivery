@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">NextDelivery</string>
+
+    <!--schermata iniziale-->
+    <string name="logo">LogoApp</string>
+    <string name="messBenvenuto">Benvenuto!</string>
+    <string name="TastoAvvio">Inizia</string>
+
+    <!--schermata login-->
+    <string name="loginTitle">Effettua l\'accesso</string>
+    <string name="icona_login">Login</string>
+    <string name="erroreLog"></string>
+    <string name="etNome">Nome</string>
+    <string name="edNome">Inserisci il tuo nome</string>
+    <string name="etPass">Password</string>
+    <string name="edPass">Inserisci la tua password</string>
+    <string name="helpLogin">Premi su accedi per effettuare il login</string>
+    <string name="tastoAccedi">Accedi</string>
+
+    <!--schermata inizio consegne-->
+    <string name="inizioTitle">Inizio consegne</string>
+    <string name="benvenuto">Benvenuto (nome utente)</string>
+    <string name="prendiFurgone">Prendi dal parcheggio il furgone n°: 0000</string>
+    <string name="numFurg">Prendi dal parcheggio il furgone n°: 0000</string>
+    <string name="marcaFurg">Marca:</string>
+    <string name="modelloFurg">Modello:</string>
+    <string name="helpInizio">Sali sulla vettura indicata e premi su avanti</string>
+    <string name="tastoAvanti">Avanti</string>
+
+    <!--schermata carico (inglobata in consegna)-->
+    <string name="caricoTitle">Carico merci</string>
+    <string name="iconaCarico">Carico</string>
+    <string name="livelloCarico">Livello carico furgone:</string>
+    <string name="icona_posizione">Posizione</string>
+    <string name="posizione">Ti trovi c/o:</string>
+    <string name="azioneCarica">Devi caricare:</string>
+    <string name="helpCarico">Fai un tap su una merce per modificarne la quantità oppure premi su conferma carico</string>
+    <string name="helpCaricoVuoto">Premi su conferma carico per continuare</string>
+    <string name="confermaCarico">Conferma carico</string>
+
+    <!--schermata scarico (inglobata in consegna)-->
+    <string name="scaricoTitle">Scarico merci</string>
+    <string name="iconaScarico">Scarico</string>
+    <string name="azioneScarica">Devi scaricare:</string>
+    <string name="helpScarico">Fai un tap su una merce per modificarne la quantità oppure premi su conferma scarico</string>
+    <string name="helpScaricoVuoto">Premi su conferma scarico per continuare</string>
+    <string name="confermaScarico">Conferma scarico</string>
+
+    <!--schermata nuova destinazione (inglobata in consegna)-->
+    <string name="prossDestTitle">Prossima destinazione</string>
+    <string name="destinazione">Destinazione:</string>
+    <string name="distanza">Distanza: circa</string>
+    <string name="helpNewDest">Quando arrivi a destinazione premi su nextDelivery</string>
+    <string name="confermaArrivo">NextDelivery</string>
+
+    <!--schermata fine consegne-->
+    <string name="fineTitle">Fine consegne</string>
+    <string name="iconaFine">Inizio</string>
+    <string name="distPercorsa">Hai percorso tot km circa</string>
+    <string name="messFine">Per oggi abbiamo finito quindi puoi parcheggiare il furgone</string>
+    <string name="saluto">Alla prossima (nome utente)</string>
+    <string name="helpFine">Premi su esci per chiudere l\'applicazione</string>
+    <string name="esci">Esci</string>
+
+</resources>
